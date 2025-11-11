@@ -1,0 +1,16 @@
+{
+    "predictor_config": {
+        "temperature": 0.01,
+        "top_p": 0.9,
+        "max_new_tokens": 256,
+        "model_id": "gpt-4o",
+        "use_screenshot": true
+    },
+    "task_registry_filepath": "task_registry/demo_3.jsonl",
+    "evaluator_config": {
+        "model_id": "gpt-4o",
+        "model_host_type": "api_model",
+        "use_screenshot": true,
+        "use_xml": true
+    }
+}

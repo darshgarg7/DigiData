@@ -1,0 +1,20 @@
+{
+    "predictor_config": {
+        "temperature": 0.01,
+        "top_p": 0.9,
+        "max_new_tokens": 256,
+        "model_id": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "use_screenshot": true,
+        "api_key_name": "LLAMA_API_KEY",
+        "base_url": "https://api.llama.com/compat/v1/"
+    },
+    "task_registry_filepath": "task_registry/demo_3.jsonl",
+    "evaluator_config": {
+        "model_id": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+        "model_host_type": "api_model",
+        "use_screenshot": true,
+        "use_xml": true,
+        "api_key_name": "LLAMA_API_KEY",
+        "base_url": "https://api.llama.com/compat/v1/"
+    }
+}

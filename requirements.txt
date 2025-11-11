@@ -1,0 +1,6 @@
+openai
+opencv-python
+pillow
+langchain_core
+xmltodict
+Appium-Python-Client
